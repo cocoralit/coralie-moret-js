@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harry Potter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/slider.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html"><img class="logo" src="images/logo.png"  alt="Accueil"/></a>
+        <ul class="nav-links">
+          <li>
+            <a href="persos.html">Personnages</a>
+          </li>
+          <li>
+            <a href="compte.html">Compte</a>
+          </li>
+        </ul>
+        <img src="images/moon.png" alt="Dark Mode" id="icon">
+      </nav>
+    </header>
+
+    <main>
+
+
+    <div class="swiper mon-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide slide-1">
+          <p class="subtitle">La saga</p>
+          <p class="title">Harry Potter</p>
+        </div>
+        <div class="swiper-slide slide-2">
+          <p class="subtitle">La saga</p>
+          <p class="title">Harry Potter</p>
+        </div>
+        <div class="swiper-slide slide-3">
+          <p class="subtitle">La saga</p>
+          <p class="title">Harry Potter</p>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <br><br>
+
+	<div class="sommaire"> 
+		<ul>
+			<li><a href="index.html"><h4>Tout un univers</h4></a> </li>
+			<li><a href="#houses"><h4>Les maisons</h4></a>
+				<ul>
+					<li><h5>Gryffondor</h5></li>
+					<li><h5>Poufsouffle</h5></li>
+					<li><h5>Serdaigle</h5></a></li>
+					<li><h5>Serpentard</h5></li>
+				</ul>
+			</li>
+			<li><a href="#books"><h4>Les livres</h4></a>
+				<ol>
+					<li><h5>L'Ecole des Sorciers</h5></li>
+					<li><h5>La Chambre des Secrets</h5></li>
+					<li><h5>Le Prisonner d'Azkaban</h5></li>
+					<li><h5>La Coupe de Feu</h5></li>
+					<li><h5>L'Ordre du Phénix</h5></li>
+					<li><h5>Le Prince de Sang-Mêlé</h5></li>
+					<li><h5>Les Reliques de la Mort</h5></li>
+				</ol>
+			</li>
+		</ul>
+	</div>
+
+
+
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae molestie massa. Duis vel dui congue, dignissim felis et, sagittis odio. Donec tincidunt, neque eu posuere fermentum, tortor ex maximus magna, et sagittis justo purus vitae mi. Donec egestas blandit dolor, at vehicula ligula. Nunc libero sem, rutrum vel egestas eget, dignissim sit amet quam. Morbi molestie dictum lorem, a dignissim nisl mattis quis. Curabitur vulputate dolor a tempus pellentesque. Fusce euismod mattis mauris eget eleifend. <br><br>
+
+        Sed id pellentesque purus. Donec molestie massa at sapien dignissim rhoncus. Vestibulum ornare condimentum eros, at imperdiet felis elementum vel. Vivamus dapibus accumsan tristique. Integer dictum augue nulla, vitae feugiat mi eleifend non. Maecenas sed rhoncus mi. Nunc luctus varius leo. Curabitur turpis mi, ornare nec vulputate at, bibendum non dui. Donec laoreet justo eu turpis rhoncus, quis dictum augue laoreet. Proin bibendum sem eget enim aliquam viverra. Etiam rhoncus, tortor mattis fermentum posuere, lectus nisl interdum nisl, vel bibendum metus dui vel augue. Proin id suscipit elit. Phasellus et augue eu nunc pretium aliquet ac lobortis libero. Pellentesque eu semper libero, non euismod diam. Nunc lorem diam, fringilla eu ex a, efficitur ullamcorper sem. <br><br>
+      </p>
+
+      <h2 id="houses">Les maisons</h2>
+        <div class="houses">
+          <img class="img_zoom" src="images/houses/gryffindor.png" alt="Gryffondor" title="Gryffondor" width="250px">
+          <img class="img_zoom" src="images/houses/hufflepuff.png" alt="Poufsouffle" title="Poufsouffle" width="270px">
+          <img class="img_zoom" src="images/houses/ravenclaw.png" alt="Serdaigle" title="Serdaigle" width="230px">
+          <img class="img_zoom" src="images/houses/slytherin.png" alt="Serpentard" title="Serpentard" width="230px">
+        </div>
+
+      <h2>Les livres</h2>
+        <div class="books">
+          <img class="img_zoom" src="images/tomes/t1.jpg" alt="Harry Potter à l'Ecole des Sorciers" title="Harry Potter à l'Ecole des Sorciers" height="200px">
+          <img class="img_zoom" src="images/tomes/t2.jpg" alt="Harry Potter et la Chambre des Secrets" title="Harry Potter et la Chambre des Secrets" height="200px">
+          <img class="img_zoom" src="images/tomes/t3.jpg" alt="Harry Potter et le Prisonner d'Azkaban" title="Harry Potter et le Prisonner d'Azkaban" height="200px">
+          <img class="img_zoom" src="images/tomes/t4.jpg" alt="Harry Potter et la Coupe de Feu" title="Harry Potter et la Coupe de Feu" height="200px">
+          <img class="img_zoom" src="images/tomes/t5.jpg" alt="Harry Potter et l'Ordre du Phénix" title="Harry Potter et l'Ordre du Phénix" height="200px">
+          <img class="img_zoom" src="images/tomes/t6.jpg" alt="Harry Potter et le Prince de Sang-Mêlé" title="Harry Potter et le Prince de Sang-Mêlé" height="200px">
+          <img class="img_zoom" src="images/tomes/t7.jpg" alt="Harry Potter et les Reliques de la Mort" title="Harry Potter et les Reliques de la Mort" height="200px">
+        </div>
+        
+      
+    <div class="bg">
+      <div id="video_fond">
+        <video autoplay loop muted playsinline>
+          <source src="images/background.mp4">
+        </video>
+      </div>
+
+    </main>
+
+    <footer>
+      <ul class="sites">
+        <li>
+          <a href="https://www.youtube.com/@harrypotter" target="_blank"> <i class="fa-brands fa-youtube"></i>
+          </a>
+        </li>
+          <a href="https://www.instagram.com/harrypotter/" target="_blank"> <i class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/harrypotter?lang=fr" target="_blank"> <i class="fa-brands fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.tiktok.com/tag/harrypotter" target="_blank"> <i class="fa-brands fa-tiktok"></i>
+          </a>
+        </li>
+      </ul>
+
+			<!-- pour retourner en haut de la page -->
+      <div class="arrow">
+        <a href="index.html" title="Cliquez pour remonter"> <i class="fa-solid fa-arrow-up"></i>
+		  </div>
+
+    </footer>
+    
+    
+    <!-- script en js-->
+    <script src="js/slider.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

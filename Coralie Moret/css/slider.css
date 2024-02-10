@@ -1,0 +1,39 @@
+.swiper-slide {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 10px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 72px;
+  color: #6d0000;
+  padding-left: 100px;
+}
+
+.subtitle {
+  letter-spacing: 3px;
+  font-size: 24px;
+  color: #6d0000;
+  padding-left: 100px;
+}
+
+.slide-1 {
+  background-image: url("../images/accueil/harry-potter.webp");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+}
+.slide-2 {
+  background-image: url("../images/accueil/harry potter 2.jpg");
+  background-size: cover;
+  align-items: center;
+}
+.slide-3 {
+  background-image: url("../images/accueil/harry potter 3.jpg");
+  background-size: cover;
+  align-items: center;
+}

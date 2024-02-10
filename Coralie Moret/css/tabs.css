@@ -1,0 +1,27 @@
+.tabs {
+  display: flex;
+  list-style-type: none;
+  margin: 5% 3% 5% 39%;
+}
+
+.tab {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.tab-active {
+  background-color: #740001;
+  border-radius: 5px;
+}
+
+.content {
+  display: none;
+  list-style-type: none;
+  text-align: center;
+}
+
+.active {
+  display: block;
+  list-style-type: none;
+  text-align: center;
+}
